@@ -21,11 +21,11 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!--ProtonPlus logo-->
-    <com.android.settingslib.widget.LayoutPreference
+   <!--ProtonPlus logo-->
+   <!-- <com.android.settingslib.widget.LayoutPreference
         android:key="protonplus_logo"
         android:layout="@layout/protonplus_logo"
-        android:selectable="false"/>
+        android:selectable="false"/> -->
 
     <!-- Android version -->
     <Preference
@@ -38,7 +38,7 @@
         settings:layout="@layout/top_level_preference_top"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- ProtonPlus version -->
+    <!-- Field version -->
     <Preference
         android:key="custom_firmware_version"
         android:title="@string/custom_firmware_version"
@@ -60,9 +60,9 @@
     <!-- Maintainer/s name/s -->
     <Preference
         android:key="protonplus_maintainer"
-        android:title="@string/protonplus_maintainer_title"
+        android:title="@string/field_maintainer_title"
         android:icon="@drawable/ic_settings_display_acc"
-        android:summary="@string/protonplus_maintainer_summary"
+        android:summary="@string/field_maintainer_summary"
         settings:layout="@layout/top_level_preference_middle"
         settings:enableCopying="true"/>
 

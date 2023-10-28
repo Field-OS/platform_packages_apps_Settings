@@ -14601,9 +14601,9 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
 
     <!-- Maintainer -->
-    <string name="protonplus_maintainer">Device Maintainer</string>
-    <string name="protonplus_maintainer_title">@string/protonplus_maintainer</string>
-    <string name="protonplus_maintainer_summary">Unknown</string>
+    <string name="field_maintainer">Device Maintainer</string>
+    <string name="field_maintainer_title">@string/field_maintainer</string>
+    <string name="field_maintainer_summary">Unknown</string>
     
     <!-- Applications fragment -->
     <string name="search">Search</string>
