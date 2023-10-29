@@ -32,8 +32,8 @@ import com.android.settings.core.BasePreferenceController;
 public class CustomFirmwareVersionPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "CustomFirmwareVersion";
-    private static final String VERSION = "ro.proton.version";
-    private static final String RELEASE_TYPE = "ro.proton.releasetype";
+    private static final String VERSION = "ro.field.version";
+    private static final String RELEASE_TYPE = "ro.field.releasetype";
 
     private final PackageManager mPackageManager;
 
@@ -56,6 +56,7 @@ public class CustomFirmwareVersionPreferenceController extends BasePreferenceCon
         else 
             return mContext.getString(R.string.device_info_default);
     }
+
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
